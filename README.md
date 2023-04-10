@@ -4,6 +4,16 @@ This project helps you quickly set up a Debian-based environment with essential 
 
 ## Getting Started
 
+```bash
+if ! command -v git >/dev/null 2>&1; then
+    echo "Git não está instalado. Instalando git-all..."
+    sudo apt update
+    sudo apt install -y git-all
+else
+    echo "Git já está instalado."
+fi
+```
+
 To get started, clone this repository:
 
 ```bash
