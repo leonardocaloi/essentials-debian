@@ -34,10 +34,6 @@ chmod +x root_all_essentials.sh
 ./root_all_essentials.sh
 ```
 
-```bash
-cd essentials-debian
-```
-
 ## Components
 
 This project sets up the following components:
