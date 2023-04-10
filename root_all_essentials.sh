@@ -2,7 +2,7 @@
 
 source .env
 
-chmod -R +x ./essentials/*
+chmod -R +x .$(pwd)/essentials/*
 
 ./essentials/add_sudo_user.sh $USERNAME $PASSWORD
 
